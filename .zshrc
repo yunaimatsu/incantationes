@@ -20,4 +20,6 @@ a pc 'pip config'
 # ps `^.p$`
 a dp='docker ps'
 
-# Text manipulation
+# zshrc
+a nz 'nano ~/.zshrc'
+a sz 'source ~/.zshrc'
