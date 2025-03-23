@@ -4,20 +4,20 @@ a() {
 }
 
 # exec `^.e$`
-alias be='bundle exec'
-alias de='docker exec'
+a be 'bundle exec'
+a de 'docker exec'
 
 # log `^.l$`
-alias gl='git log'
-alias dl='docker logs'
+a gl 'git log'
+a dl 'docker logs'
 
 # config `^.c$`
-alias gc='git config'
-alias bc='bundle config'
-alias nc='npm config'
-alias pc='pip config'
+a gc 'git config'
+a bc 'bundle config'
+a nc 'npm config'
+a pc 'pip config'
 
 # ps `^.p$`
-alias dp='docker ps'
+a dp='docker ps'
 
 # Text manipulation
