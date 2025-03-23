@@ -1,3 +1,8 @@
+# alias of alias
+a() {
+  alias "$1"="$2"
+}
+
 # exec `^.e$`
 alias be='bundle exec'
 alias de='docker exec'
@@ -14,3 +19,5 @@ alias pc='pip config'
 
 # ps `^.p$`
 alias dp='docker ps'
+
+# Text manipulation
