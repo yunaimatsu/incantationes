@@ -18,7 +18,7 @@ a nc 'npm config'
 a pc 'pip config'
 
 # ps `^.p$`
-a dp='docker ps'
+a dp 'docker ps'
 
 # zshrc
 a nz 'nano ~/.zshrc'
